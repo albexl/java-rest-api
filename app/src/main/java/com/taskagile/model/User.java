@@ -1,4 +1,4 @@
-package com.taskagile;
+package com.taskagile.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
