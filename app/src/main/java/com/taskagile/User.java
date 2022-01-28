@@ -3,8 +3,10 @@ package com.taskagile;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "user")
 public class User {
     @Id
     @GeneratedValue
@@ -14,7 +16,8 @@ public class User {
     public User() {
     }
 
-    public User(String name) {
+    public User(long id, String name) {
+        this.id = id;
         this.name = name;
     }
 
