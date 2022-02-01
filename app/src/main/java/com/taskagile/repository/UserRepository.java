@@ -1,4 +1,6 @@
-package com.taskagile;
+package com.taskagile.repository;
+
+import com.taskagile.model.User;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
