@@ -1,2 +1,2 @@
 # java-rest-api
-Simple REST Api to learn Java and Spring Framework
+Simple REST API to learn Java and Spring Framework.
